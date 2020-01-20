@@ -1,0 +1,5 @@
+@mixin  for-morethan-992 {
+    @media (min-width:200.97px) and (max-width:992px){
+        @content;
+    }
+}
